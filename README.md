@@ -4,7 +4,7 @@ Education through AI-Powered Simulations
 
 ## Overview
 
-The AI SimBot is a cutting-edge tool designed to enhance educational experiences through realistic verbal interaction simulations. Initially created for nursing students to practice the CRAFFT, a screening tool for identifying substance use among youth, it now offers customizable settings for a wide range of educational and professional contexts focused on role-playing and communication skills.
+AI SimBot is a cutting-edge tool designed to enhance clinical educational experiences through realistic communication simulations. Initially created for prelicensure nursing students at Northeastern University to practice administering the CRAFFT, a screening tool for identifying substance use among youth, it now offers customizable settings for a wide range of educational and professional contexts focused on role-playing and communication skills.
 
 ### Key Features
 
