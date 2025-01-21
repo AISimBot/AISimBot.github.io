@@ -15,9 +15,9 @@ The AI SimBot is a cutting-edge tool designed to enhance educational experiences
   - Verbal interaction practice
 
 - Flexible Role-Playing: Supports diverse applications, such as:
+  - Scenario-based learning in healthcare, social work, law, and more
   - Educational role-plays (e.g., teacher-student, counselor-client, or peer mediation)
   - Professional training (e.g., job interviews, customer service, or team communication)
-  - Scenario-based learning in healthcare, social work, law, and more
 
 - Real-Time Feedback: Provides instant evaluations and feedback to refine user skills effectively.
 
@@ -29,6 +29,13 @@ The AI SimBot is a cutting-edge tool designed to enhance educational experiences
 - Scalability: Support diverse learners and training needs.
 - Flexibility: Customize scenarios to meet specific educational or professional goals.
 - Cost-Effectiveness: Replace costly and time-intensive role-playing exercises with a digital solution.
+
+### Demo
+
+<video style="width: 100%; max-width: 1280px; height: auto;" poster="https://raw.githubusercontent.com/AISimBot/AISimBot.github.io/main/assets/aisimbot.jpg" preload="metadata" controls>
+  <source src="https://raw.githubusercontent.com/AISimBot/AISimBot.github.io/main/assets/aisimbot.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Setup
 
@@ -69,7 +76,7 @@ Once set up correctly, you’ll see the app interface.
      - Chrome, Safari, Edge: `Ctrl-Shift-N` (Windows) or `Command-Shift-N` (Mac).  
      - Firefox: `Ctrl-Shift-P` (Windows) or `Command-Shift-P` (Mac).
 
-## Customize
+### Customize
 
 1. Go to your forked repository on GitHub.  
 2. Navigate to the `settings.toml` file and click **Edit file**.  
@@ -86,19 +93,49 @@ To update avatars, replace the relevant files in the `assets` folder.
 
 **IMPORTANT**: After commit changes, you need to reboot your Streamlit app from the dropdown menu under Manage App.
 
+### Importance of Prompt
+
+The instruction field in the settings is the most critical component of the AI SimBot, as it directly shapes the quality and relevance of the user experience.
+
+1. Be Clear and Specific: Clearly define the AI's role, purpose, and behavior to minimize ambiguity.  
+   - Example: *"You are Jordan, a 17-year-old non-binary high school student visiting a pediatric office for a routine physical. Speak naturally and respond based on the provided patient background."*
+
+2. Provide Sufficient Context: Offer background details to help the AI generate relevant and realistic responses.  
+   - Example: *"Jordan has started using substances occasionally to cope with academic and social pressures and feels nervous about the CRAFFT screening due to concerns about judgment and confidentiality."*
+
+3. Guide Behavior with Clear Instructions: Specify how the AI should behave in different scenarios.  
+   - Example: *"Begin the conversation feeling nervous and guarded. Gradually open up if the nurse is empathetic and supportive. If the nurse is judgmental, withdraw emotionally and respond defensively."*
+
+4. Use Step-by-Step Instructions: Break down tasks into smaller, manageable steps for the AI to follow.  
+   - Example: *"Start the conversation with an introduction. Respond to the nurse’s questions using short, vague answers at first. Adjust your emotional openness based on the nurse’s tone."*
+
+5. Define Boundaries: Set clear limits on what the AI should avoid or omit.  
+   - Example: *"Do not ask any questions. Do not mention the CRAFFT manual. If the nurse asks something outside your scope, respond with, 'I’m not aware of that.'"*
+
+6. Incorporate Examples for Clarity: Provide sample responses to illustrate the desired behavior.  
+   - Example: *"When nervous, say things like, 'It’s not a big deal,' or 'I only do it sometimes.' If the nurse is empathetic, you might say, 'Sometimes I just need an escape.' If they are judgmental, respond with, 'Can we stop now?' or 'I think I’m done here.'"*
+
+7. Encourage Realism and Consistency: Make the AI’s responses more engaging and authentic.  
+   - Example: *"Use casual Gen Z slang like 'low-key,' 'vibe,' or 'no cap' to sound like a typical teenager. Reflect Jordan’s emotions and background in every response."*
+
+8. Iterate and Test for Improvements: Continuously test and refine the prompt to ensure it delivers the desired outcomes.  
+   - Insight: Tuning the prompt for CRAFFT practice required multiple rounds of iterative testing with graduate-level nursing students to optimize the SimBot's performance.
+
+For more information, check out [Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) by OpenAI.
+
 ## Technologies Used
 
 - [Streamlit](https://streamlit.io/): For building an interactive user interface.
 - OpenAI API: For text generation through GPT-4o (large language model), text to speech, and speech to text ((Whisper.)
 
-### Potential Use Cases
+## Potential Use Cases
 
 The AI SimBot’s versatility makes it valuable for:
 
 - Healthcare and Counseling Training: Practice patient-provider communication and diagnostic skills.
 - Youth Development Programs: Role-play scenarios like peer mediation, bullying intervention, or leadership development.
 - Cross-Cultural Communication: Improve interactions in diverse cultural contexts.
-- Education and Teaching: Prepare for parent-teacher conferences, student counseling, or classroom scenarios.
+- Education and Teaching: Prepare for classroom scenarios, student counseling.
 - Language Learning: Build conversational fluency and cultural competence.
 - Legal Practice: Practice depositions, client consultations, or courtroom questioning.
 - Law Enforcement Training: Simulate suspect or witness interviews to sharpen investigative skills.
