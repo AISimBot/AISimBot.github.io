@@ -93,7 +93,6 @@ Once set up correctly, you’ll see the app interface.
 The `settings.toml` file uses [TOML](https://toml.io/en/) format. For multiline fields, enclose text in `'''`. You can also use [Markdown](https://www.markdownguide.org/getting-started/) for formatting.
 
 - **Intro**: Displays before users start chatting.  
-- **Instruction**: Defines the initial prompt sent to the model.  
 - **Sidebar**: Contains fields that appear on the app’s sidebar.  
 
 To update avatars, replace the relevant files in the `assets` folder.
@@ -104,7 +103,7 @@ To customize basic theme settings such as colors and fonts, edit the .streamlit/
 
 ### Importance of Prompt
 
-The instruction field in the settings is the most critical component of the AI SimBot, as it directly shapes the quality and relevance of the user experience.
+The content in prompt.txt is the most critical component of the AI SimBot, as it directly shapes the quality and relevance of the user experience.
 
 1. Be Clear and Specific: Clearly define the AI's role, purpose, and behavior to minimize ambiguity.  
    - Example: *"You are Jordan, a 17-year-old non-binary high school student visiting a pediatric office for a routine physical. Speak naturally and respond based on the provided patient background."*
