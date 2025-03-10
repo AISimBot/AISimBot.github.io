@@ -64,7 +64,8 @@ In order to launch this app, you need to configure and set up the following thre
 
    ```toml
    OPENAI_API_KEY = "your_openai_api_key"
-   password = "your_app_password"
+   password = "user-password"
+   admin_password = "admin-password"
    ```
 
    - Click **Save** and then **Deploy**.
@@ -101,7 +102,11 @@ To customize basic theme settings such as colors and fonts, edit the .streamlit/
 
 **IMPORTANT**: After commit changes, you need to [reboot](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app/reboot-your-app) your app by going to **Manage app** (in the lower-right corner) and clicking the overflow menu icon and then reboot.
 
+If you log in with the admin password, you can edit the prompt and test it quickly. You can also load and save prompts, as well as chat history.
+
 ### Importance of Prompt
+
+
 
 The content in prompt.txt is the most critical component of the AI SimBot, as it directly shapes the quality and relevance of the user experience.
 
